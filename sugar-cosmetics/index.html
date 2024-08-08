@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugar Cosmetics Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sugarCosmetic.css">
+    
+</head>
+<body>
+    
+    
+        <!-- Navbar first section 1 -->
+       <div class="navigation">
+        <div class="navbar1">
+            <div class="NV1">
+                <div class="nvi">
+                    <p>Use Code: BEAUTY15 - 15% off on our Bestsellers! 😍💸</p>
+                </div>
+                <div class="nvSec1">
+                    <div class="nvii">
+                        <div class="icon"><i class="fa-solid fa-mobile"></i></div>
+                        <div class="iconTxt">GET APP</div>
+                    </div>
+                    <div class="nviii">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="iconTxt">STORE</div>
+                    </div>
+                    <div class="nviv">
+                        <div class="icon"><i class="fa-solid fa-gift"></i></div>
+                        <div class="iconTxt">GIFT CARD</div>
+                    </div>
+                    <div class="nvix">
+                        <div class="icon"><i class="fa-solid fa-circle-question"></i></div>
+                        <div class="iconTxt">HELP</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar first section 2 -->
+        <div class="navbar2">
+            <div class="nv2_img">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FNonCVLogoDesktop.86874a45.png&w=256&q=100" alt="">
+            </div>
+            <div class="searchBar">
+                <input type="text" placeholder="Try 'Liquid Lipstick' ">
+                <div class="seaechIcon"><i class="fa-solid fa-magnifying-glass" ></i><p>Search</p></div>
+            </div>
+            <div class="login" id="loginBtn" >
+                <i class="fa-solid fa-user"></i> 
+                <p> <span></span> Login/Register</p>
+            </div>
+            <div class="icons">
+            <div class="heart_icon" onclick="wishListPage()"><i class="fa-solid fa-heart"></i></div>
+            <div class="bag_icon"><i class="fa-solid fa-bag-shopping"></i></div>
+            <div class="discount_icon"><i class="fa-solid fa-percent"></i></div>
+            </div>
+
+            
+        </div>
+        <!-- Navbar first section 3 -->
+        <div class="navbar3">
+            <div class="NV3">
+                
+                    <div onclick="navigateToLips()">LIPS</div>
+                    <div onclick="navigateToEyes()">EYES</div>
+                    <div onclick="navigateToFace()">FACE</div>
+                    <div onclick="navigateToNail()">NAILS</div>
+                    <div onclick="navigateToSkincare()">SKINCARE</div>
+                    <div>ACCESSORIES</div>
+                    <div>GIFTING</div>
+                    <div>BESTSELLERS</div>
+                    <div>NEW LAUNCHES</div>
+                    <div>OFFERS</div>
+                    <div>BLOG</div>
+                
+            </div>
+        </div>
+       </div>
+<!-- ____________________________________________________________________ -->
+
+<!-- slider section -->
+<div class="slider" onclick="navigateToLips()">
+    <div class="slider_Img" >
+        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fae765486-4572-4f49-8504-95723a11ca69.gif&w=1920&q=75" alt="">  
+    </div>
+    <div class="slider_Img">
+        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fb1e298e4-0218-4709-8065-c3a87954edcf.jpg&w=1920&q=75" alt="">  
+    </div>
+    <div class="slider_Img">
+        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F29ebc41a-042b-43a3-9820-e703845858bb.jpg&w=1920&q=75" alt="">  
+    </div>
+    <div class="slider_Img">
+        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fed482272-4a25-46a7-8708-2106336325db.gif&w=1920&q=75" alt="">  
+    </div>
+    <div class="slider_Img" onclick="navigateToEyes()">
+        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fc5b11d47-5a31-4734-b3c3-7e0018f79ba1.jpg&w=1920&q=75" alt="">  
+    </div>
+</div>
+<div class="controls">
+    <i class="prev fas fa-chevron-left"></i>
+    <i class="next fas fa-chevron-right"></i>
+</div>
+<!-- <i class="fa-solid fa-backward"></i> 
+            <i class="fa-solid fa-forward"></i> -->
+
+<!-- ____________________________________________________________________ -->
+
+<!-- club vellvette -->
+<div class="club_sec">
+    <div class="CB_sec1">
+        <hr>
+        <h1>CLUB VELLVETTE</h1>
+        <hr>
+    </div>
+
+    <!-- CB-Image Section -->
+    <div class="CB_sec2">
+        <div class="cb_img">
+            <img src="img.png" alt="">
+            <div class="hTag">
+            <h1><b>Buy @ ₹299 for 6 months</b></h1>  
+             <h1>Save 20% EXTRA + FREE Shipping</h1>
+             <h2>JOIN NOW</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ____________________________________________________________________ -->
+
+<!-- Best Seller Section -->
+<div class="bestSellers">
+    <div class="CB_sec1">
+        <hr>
+        <h2 style="color: white;">BESTSELLERS</h2>
+    <hr>
+    </div>
+
+    <div class="mainBoxContainer">
+        <div class="boxes">
+            <div class="unit_boxes" >
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F522157922-wedding-kit-by-tamannaah-wbg-images_1.jpg%3Fv%3D1706621444&w=256&q=75" height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Wedding Makeup Kit by</p>
+                    </div>
+                    <p class="name">Tamannah</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;3499</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;4295</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 2799</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+
+
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F603644671-1st-card.jpg%3Fv%3D1712590773&w=256&q=75" height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    
+                    <div class="txtp">
+                        <p>Festival Makeup Kit</p>
+                    </div>
+                    <p class="name">&nbsp</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;1699</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;2346</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 1359</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FNude-Edition-Makeup-Kit---WBG_1.jpg%3Fv%3D1690905055&w=256&q=75
+                        " height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Nude Edition Makeup Kit</p>
+                    </div>
+                    <p class="name">&nbsp;</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;1499</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;1969</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 1199</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FDateNightMakeupkit-1.jpg%3Fv%3D1695397255&w=256&q=75" height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Date Night Makeup Kit</p>
+                    </div>
+                    <p class="name">&nbsp;</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;1599</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;2193</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 1279</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    
+    
+
+</div>
+
+<!-- ____________________________________________________________________ -->
+<!-- Festival Zone -->
+
+
+<div class="festZN">
+    <div class="hori_line_txt">
+        <hr>
+        <h2 style="color: black;">FESTIVE ZONE</h2>
+        <hr>
+    </div>
+    <div class="FZn1">
+
+    </div>
+
+    <!-- FZn Image section -->
+    
+    
+    <div class="FZn2">
+        
+        
+    </div>
+</div>
+
+<!-- ____________________________________________________________________ -->
+<!-- CURATED KITS FOR YOU -->
+<div class="curtd">
+    <div class="bestSellers">
+        <div class="hori_line_txt">
+            <hr>
+            <h2 style="color: white;">CURATED KITS FOR YOU</h2>
+            <hr>
+        </div>
+       
+    <div class="mainBoxContainer">
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F01_332ccf25-8e0f-4b40-be7b-3e322eeeb653.jpg%3Fv%3D1712590471&w=256&q=75" height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Matte Attack Transproof</p>
+                    </div>
+                    <p class="name">Lipstick</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;799</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;1299</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 2799</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F370205924-01_1aef1c2e-8e41-42a2-89c5-70dab3b356ac.jpg%3Fv%3D1698238462&w=256&q=75" height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Matte As Hell Crayon Lipstick</p>
+                    </div>
+                    <p class="name">Mini Set of 3</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;599</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;1299</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 2799</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F07_6fa35950-4830-4e97-80ea-d40f2fb42801.jpg%3Fv%3D1680622820&w=256&q=75" height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>As of Foundation Stick</p>
+                    </div>
+                    <p class="name">&nbsp;</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;3499</h3></p>
+                        <p style="color: #757575;"> 15 shades</p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 2799</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FBaseOfGloryPoreMinimizingPrimerPDPimages1copy.jpg%3Fv%3D1682956017&w=256&q=75" height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Base of Glory Pore Minimizing</p>
+                    </div>
+                    <p class="name">Primer</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;849</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;950</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 2799</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- ____________________________________________________________________ -->
+<!-- PRODUCT OF THE MONTH -->
+
+    <div class="hori_line_txt" style="margin-top: 30px;">
+        <hr>
+        <h2>PRODUCT OF THE MONTH</h2>
+        <hr>
+    </div>
+<div class="pom">
+    
+    <div class="pom_sec1"></div>
+    <!-- POM image section -->
+    <div class="pom_sec2"></div>
+</div>
+
+<!-- ____________________________________________________________________ -->
+<!-- MATTE ATTACK TRANSFERPROOF LIPSTICK -->
+<div class="hori_line_txt" style="margin-top: 30px;">
+    <hr>
+    <h2>MATTE ATTACK TRANSFERPROOF LIPSTICK</h2>
+    <hr>
+</div>
+<div class="MATL">
+    <img onclick="playVideo()" src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/81f2b4fa-5d88-4ace-bf5e-bdd1fd9d6c8a.jpg&w=1920&q=75" alt="" height="450px" width="1200px" style="border-radius: 10px;">
+</div>
+
+<!-- ____________________________________________________________________ -->
+<!-- MATTE ATTACK COMBOS FOR YOU -->
+<div class="MACFU">
+    <div class="hori_line_txt" style="margin: 10px 0px 30px 0px;">
+        <hr>
+        <h2 style="color: white;">MATTE ATTACK COMBOS FOR YOU</h2>
+        <hr>
+    </div>
+    <div class="mainBoxContainer">
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F605063919-transferproof-matte-lipstick-set-of-2-wbg01-kv.jpg%3Fv%3D1712677248&w=256&q=75" height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Matte Attack Transproof</p>
+                    </div>
+                    <p class="name">Lipstick Set of 2</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;1999</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;1499</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 233</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F604274196-01-kv.jpg%3Fv%3D1712677270&w=256&q=75" height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Matte Attack Lipstick</p>
+                    </div>
+                    <p class="name">+ Ace of Face Foundation</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;999</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;1299</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 299</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F603703588-main-image.jpg%3Fv%3D1712677348&w=256&q=75" height="222px" width="160px" alt="">
+                
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Matte Attack Transproof</p>
+                    </div>
+                    <p class="name">Lipstick + Dream Cov..</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;999</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;1299</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 199</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F605100686-transferproof-matte-attack-lipstick-lip-primer-combo-wbg01-kv.jpg%3Fv%3D1712677228&w=256&q=75" height="222px" width="160px" alt="">
+                        
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Matte Attack Transproof</p>
+                    </div>
+                    <p class="name">Seal The Show Lip..</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;999</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;1999</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 199</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- ____________________________________________________________________ -->
+<!-- REFER YOUR FRIENDS -->
+<div class="hori_line_txt" style="margin-top: 30px;">
+    <hr>
+    <h2>REFER YOUR FRIENDS</h2>
+    <hr>
+</div>
+<div class="RUF">
+    <div class="ruf1"></div>
+    <!-- RUF IMG SECTION -->
+    <div class="ruf2"></div>
+</div>
+
+<!-- ____________________________________________________________________ -->
+<!-- HOT DEALS -->
+<div class="hori_line_txt" style="margin-top: 30px;">
+    <hr>
+    <h2>HOT DEALS</h2>
+    <hr>
+</div>
+<div class="hdtl">
+    <!-- HOT DEALS IMAGE -->
+        <div class="hdboxes hdboxes1"></div>
+        <div class="hdboxes hdboxes2"></div>
+        <div class="hdboxes hdboxes3"></div>
+</div>
+<!-- ____________________________________________________________________ -->
+<!-- TOP PICKS OF THE WEEK -->
+<div class="TPOW">
+    <div class="hori_line_txt" style="margin-top: 30px;">
+        <hr>
+        <h2>TOP PICKS OF THE WEEK</h2>
+        <hr>
+    </div>
+    <div class="hdtl">
+        <!-- HOT DEALS IMAGE -->
+            <div class="hdboxes hdboxesi"></div>
+            <div class="hdboxes hdboxesii"></div>
+            <div class="hdboxes hdboxesiii"></div>
+    </div>
+
+</div>
+
+<!-- ____________________________________________________________________ -->
+<!-- SUPER SAVERS -->
+<div class="SS">
+    <div class="hori_line_txt">
+        <hr>
+        <h2 style="color: white;">CURATED KITS FOR YOU</h2>
+        <hr>
+    </div>
+    <div class="mainBoxContainer">
+        <div class="boxes">
+            <div class="unit_boxes" >
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FRageForCoveragePDPImagesparent1stcard.jpg%3Fv%3D1685636215&w=256&q=75" height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Rage of Covarage Foundation</p>
+                    </div>
+                    <p class="name" style="color: #757575;">8 Shades</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;425</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;899</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 340</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FAirKissPowderPoweredByImagesArtboard1.jpg%3Fv%3D1644421218&w=256&q=75" height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Air Kiss Powder Lipstick</p>
+                    </div>
+                    <p class="name" style="color: #757575;">3 Shades</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;800</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;1199</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 280</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2FValue-Sets---WBG-Listing_1_9756c528-c984-4323-af6f-4fe3239ee42c.jpg%3Fv%3D1694187870&w=256&q=75
+                        " height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Date Night Makeup Duo</p>
+                    </div>
+                    <p class="name">&nbsp;</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;499</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;896</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 132</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="boxes">
+            <div class="unit_boxes">
+    
+                <div class="poster-container">
+                    <div class="poster">
+                        <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F537282461-maximeyes-mat-value-set-wbg3.jpg%3Fv%3D1694619990&w=256&q=75" height="222px" width="160px" alt="">
+                    </div>
+                </div>
+                <div class="texts">
+            
+                    <div class="txtp">
+                        <p>Liplash Makeup Set</p>
+                    </div>
+                    <p class="name">&nbsp;</p>
+                    
+                    <div class="p_sec">
+                        <p><h3>&#x20B9;1299</h3></p>
+                        <p><s style="color: #757575;"> MRP &#x20B9;2293</s></p>
+                    </div>
+                    <div class="p_sec2">
+                        <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                        <p style="color: #757575;">&#x20B9; 400</p>
+                    </div>
+                </div>
+                <div class="lastSec">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="choic">CHOOSE ITEM</div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- ____________________________________________________________________ -->
+<!-- NEWLY LAUNCHED  -->
+<div class="NL">
+
+    <div class="hori_line_txt">
+        <hr>
+        <h2 style="color: black;">NEWLY LAUNCHED</h2>
+        <hr>
+    </div>
+        <!-- NEWLY LAUNCHED SLIDERS -->
+        <div class="nl2">
+            <div class="slider slider2">
+                <div class="slider_Img slider_Img2">
+                    
+                        <i class="fa-solid fa-backward"></i> 
+                        <i class="fa-solid fa-forward"></i>
+                    
+                </div>
+            </div>
+        </div>
+
+</div>
+
+<!-- ____________________________________________________________________ -->
+<!-- SKINCARE BASICS  -->
+<div class="SB">
+    <div class="hori_line_txt">
+        <hr>
+        <h2 style="color: white;">SKINCARE BASICS</h2>
+        <hr>
+    </div>
+    <div class="sb1">
+        <div class="mainBoxContainer">
+            <div class="boxes">
+                <div class="unit_boxes">
+        
+                    <div class="poster-container">
+                        <div class="poster">
+                            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2Fparentpage_f3c8f153-1e62-4a22-bc0c-da67c39a4529.jpg%3Fv%3D1685635643&w=256&q=75
+                        " height="222px" width="160px" alt="">
+                        </div>
+                    </div>
+                    <div class="texts">
+                
+                        <div class="txtp">
+                            <p>Lipsy Lips Moisturizing Balm</p>
+                        </div>
+                        <p class="name" style="color: #757575;">6 Shades</p>
+                        
+                        <div class="p_sec">
+                            <p><h3>&#x20B9;199</h3></p>
+                            <p><s style="color: #757575;"> MRP &#x20B9;297</s></p>
+                        </div>
+                        <div class="p_sec2">
+                            <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                            <p style="color: #757575;">&#x20B9; 2799</p>
+                        </div>
+                    </div>
+                    <div class="lastSec">
+                        <div class="like"><i class="fa-regular fa-heart"></i></div>
+                        <div class="choic">CHOOSE ITEM</div>
+                    </div>
+        
+                </div>
+            </div>
+    
+            <div class="boxes">
+                <div class="unit_boxes">
+        
+                    <div class="poster-container">
+                        <div class="poster">
+                            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FCoffee-culture-cleansing-balm-stick-01.jpg%3Fv%3D1643375707&w=256&q=75
+                        " height="222px" width="160px" alt="">
+                        </div>
+                    </div>
+                    <div class="texts">
+                
+                        <div class="txtp">
+                            <p>Coffe Culture Clinsing Balm</p>
+                        </div>
+                        <p class="name">Stick</p>
+                        
+                        <div class="p_sec">
+                            <p><h3>&#x20B9;300</h3></p>
+                            <p><s style="color: #757575;"> MRP &#x20B9;599</s></p>
+                        </div>
+                        <div class="p_sec2">
+                            <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                            <p style="color: #757575;">&#x20B9; 288</p>
+                        </div>
+                    </div>
+                    <div class="lastSec">
+                        <div class="like"><i class="fa-regular fa-heart"></i></div>
+                        <div class="choic">CHOOSE ITEM</div>
+                    </div>
+        
+                </div>
+            </div>
+    
+            <div class="boxes">
+                <div class="unit_boxes">
+        
+                    <div class="poster-container">
+                        <div class="poster">
+                            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fmoisturiser.jpg%3Fv%3D1626968292&w=256&q=75
+                        " height="222px" width="160px" alt="">
+                        </div>
+                    </div>
+                    <div class="texts">
+                
+                        <div class="txtp">
+                            <p>Aquaholi Priming Moisturizing</p>
+                        </div>
+                        <p class="name">&nbsp;</p>
+                        
+                        <div class="p_sec">
+                            <p><h3>&#x20B9;649</h3></p>
+                            <p><s style="color: #757575;"> MRP &#x20B9;199</s></p>
+                        </div>
+                        <div class="p_sec2">
+                            <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                            <p style="color: #757575;">&#x20B9; 120</p>
+                        </div>
+                    </div>
+                    <div class="lastSec">
+                        <div class="like"><i class="fa-regular fa-heart"></i></div>
+                        <div class="choic">CHOOSE ITEM</div>
+                    </div>
+        
+                </div>
+            </div>
+    
+            <div class="boxes">
+                <div class="unit_boxes">
+        
+                    <div class="poster-container">
+                        <div class="poster">
+                            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FHyaluronic-Serum-3_1.jpg%3Fv%3D1626423730&w=256&q=75
+                        " height="222px" width="160px" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="texts">
+                
+                        <div class="txtp">
+                            <p>Aquaholic Hyaluronic Serum</p>
+                        </div>
+                        <p class="name">&nbsp;</p>
+                        
+                        <div class="p_sec">
+                            <p><h3>&#x20B9;469</h3></p>
+                            <p><s style="color: #757575;"> MRP &#x20B9;699</s></p>
+                        </div>
+                        <div class="p_sec2">
+                            <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                            <p style="color: #757575;">&#x20B9; 180</p>
+                        </div>
+                    </div>
+                    <div class="lastSec">
+                        <div class="like"><i class="fa-regular fa-heart"></i></div>
+                        <div class="choic">CHOOSE ITEM</div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+</div>
+
+<!-- ____________________________________________________________________ -->
+<!-- SUGAR BEAUTY BLOG  -->
+<div class="SBB">
+    <div class="sbb1"></div>
+    <!-- SUGAR BEAUTY BLOG image section -->
+    <div class="sbb2"></div>
+
+</div>
+
+<!-- HERE WE JUST COPY AND PAST PREVIOUS LAYOUT WITHOUT CHANGING ANY NAMING OR SELECTOR CONVENSION -->
+<div class="TPOW">
+    <div class="hori_line_txt" style="margin-top: 30px;">
+        <hr>
+        <h2>SUGAR BEAUTY BLOG</h2>
+        <hr>
+    </div>
+    <div class="hdtl">
+        <!-- HOT DEALS IMAGE -->
+            <div class="hdboxes hdboxesone"></div>
+            <div class="hdboxes hdboxestwo"></div>
+            <div class="hdboxes hdboxesthree"></div>
+    </div>
+
+</div>
+<!-- ____________________________________________________________________ -->
+<!-- MERCH STATION -->
+<div class="MS">
+    <!-- <div class="ms1"></div> -->
+    <!-- MERCH STATION image section -->
+    <!-- <div class="ms2"></div> -->
+    <div class="hori_line_txt">
+        <hr>
+        <h2 style="color: black;">MERCH STATION</h2>
+        <hr>
+    </div>
+    <div class="sb1">
+        <div class="mainBoxContainer">
+            <div class="boxes">
+                <div class="unit_boxes unit_boxesNew ">
+        
+                    <div class="poster-container">
+                        <div class="poster">
+                            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FLaptop-Bag-WBG-1_d9b0a265-b8a5-4a24-a8f8-7d5b0f51788b.jpg%3Fv%3D1675182065&w=256&q=75
+                            " height="222px" width="160px" alt="">
+                        </div>
+                    </div>
+                    <div class="texts">
+                
+                        <div class="txtp">
+                            <p>Laptop Bag 15 inch</p>
+                        </div>
+                        <p class="name">Signed By Vinita Singh</p>
+                        
+                        <div class="p_sec">
+                            <p><h3>&#x20B9;999</h3></p>
+                            <!-- <p><s style="color: #757575;"> MRP &#x20B9;4295</s></p> -->
+                        </div>
+                        <div class="p_sec2">
+                            <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                            <p style="color: #757575;">&#x20B9; 299</p>
+                        </div>
+                    </div>
+                    <div class="lastSec">
+                        <div class="like"><i class="fa-regular fa-heart"></i></div>
+                        <div class="choic">CHOOSE ITEM</div>
+                    </div>
+        
+                </div>
+            </div>
+    
+            <div class="boxes">
+                <div class="unit_boxes unit_boxesNew">
+        
+                    <div class="poster-container">
+                        <div class="poster">
+                            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2FD2C---Merch---Laptop-Sleeves_1.jpg%3Fv%3D1625240618&w=256&q=75
+                            " height="222px" width="160px" alt="">
+                        </div>
+                    </div>
+                    <div class="texts">
+                
+                        <div class="txtp">
+                            <p>Easy PC Laptop Sleeve</p>
+                        </div>
+                        <p class="name">&nbsp;</p>
+                        
+                        <div class="p_sec">
+                            <p><h3>&#x20B9;799</h3></p>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="p_sec2">
+                            <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                            <p style="color: #757575;">&#x20B9; 200</p>
+                        </div>
+                    </div>
+                    <div class="lastSec">
+                        <div class="like"><i class="fa-regular fa-heart"></i></div>
+                        <div class="choic">CHOOSE ITEM</div>
+                    </div>
+        
+                </div>
+            </div>
+    
+            <div class="boxes">
+                <div class="unit_boxes unit_boxesNew">
+        
+                    <div class="poster-container">
+                        <div class="poster">
+                            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-tote-chic-canvas-carry-28477196927059.jpg%3Fv%3D1624532788&w=256&q=75
+                            " height="222px" width="160px" alt="">
+                        </div>
+                    </div>
+                    <div class="texts">
+                
+                        <div class="txtp">
+                            <p>Tote Chic Canvas Carry</p>
+                        </div>
+                        <p class="name">&nbsp;</p>
+                        
+                        <div class="p_sec">
+                            <p><h3>&#x20B9;799</h3></p>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="p_sec2">
+                            <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                            <p style="color: #757575;">&#x20B9; 200</p>
+                        </div>
+                    </div>
+                    <div class="lastSec">
+                        <div class="like"><i class="fa-regular fa-heart"></i></div>
+                        <div class="choic">CHOOSE ITEM</div>
+                    </div>
+        
+                </div>
+            </div>
+    
+            <div class="boxes">
+                <div class="unit_boxes unit_boxesNew">
+        
+                    <div class="poster-container">
+                        <div class="poster">
+                            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-money-maker-envelope-wallet-black-28490557358163.jpg%3Fv%3D1624954703&w=256&q=75
+                            " height="222px" width="160px" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="texts">
+                
+                        <div class="txtp">
+                            <p>Money Maker Envelope</p>
+                        </div>
+                        <p class="name">Black</p>
+                        
+                        <div class="p_sec">
+                            <p><h3>&#x20B9;599</h3></p>
+                            <p>&nbsp;</p>
+                        </div>
+                        <div class="p_sec2">
+                            <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                            <p style="color: #757575;">&#x20B9; 2799</p>
+                        </div>
+                    </div>
+                    <div class="lastSec">
+                        <div class="like"><i class="fa-regular fa-heart"></i></div>
+                        <div class="choic">CHOOSE ITEM</div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- ____________________________________________________________________ -->
+<!-- RECENTLY VIEWED -->
+<div class="RV">
+    <div class="hori_line_txt">
+        <hr>
+        <h2 style="color: black;">RECENTLY VIEWED</h2>
+        <hr>
+    </div>
+    <div class="sb1">
+        <div class="mainBoxContainer mainBoxContainerNew ">
+            
+            <div class="boxes">
+                <div class="unit_boxes unit_boxesNew">
+        
+                    <div class="poster-container">
+                        <div class="poster"></div>
+                    </div>
+                    <div class="texts">
+                
+                        <div class="txtp">
+                            <p>Wedding Makeup Kit by</p>
+                        </div>
+                        <p class="name">Tamannah</p>
+                        
+                        <div class="p_sec">
+                            <p><h3>&#x20B9;3499</h3></p>
+                            <p><s style="color: #757575;"> MRP &#x20B9;4295</s></p>
+                        </div>
+                        <div class="p_sec2">
+                            <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                            <p style="color: #757575;">&#x20B9; 2799</p>
+                        </div>
+                    </div>
+                    <div class="lastSec">
+                        
+                        <div class="choic">CHOOSE ITEM</div>
+                    </div>
+        
+                </div>
+            </div>
+    
+            <div class="boxes">
+                <div class="unit_boxes">
+    
+                    <div class="poster-container">
+                        <div class="poster">
+                            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F603644671-1st-card.jpg%3Fv%3D1712590773&w=256&q=75" height="222px" width="160px" alt="">
+                        </div>
+                    </div>
+                    <div class="texts">
+                
+                        <div class="txtp">
+                            <p>Festival Makeup Kit</p>
+                        </div>
+                        <p class="name">&nbsp</p>
+                        
+                        <div class="p_sec">
+                            <p><h3>&#x20B9;1699</h3></p>
+                            <p><s style="color: #757575;"> MRP &#x20B9;2346</s></p>
+                        </div>
+                        <div class="p_sec2">
+                            <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                            <p style="color: #757575;">&#x20B9; 1359</p>
+                        </div>
+                    </div>
+                    <div class="lastSec">
+                        <div class="like"><i class="fa-regular fa-heart"></i></div>
+                        <div class="choic">CHOOSE ITEM</div>
+                    </div>
+        
+                </div>
+            </div>
+    
+            <div class="boxes">
+                <div class="unit_boxes">
+    
+                    <div class="poster-container">
+                        <div class="poster">
+                            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Ffiles%2F605100686-transferproof-matte-attack-lipstick-lip-primer-combo-wbg01-kv.jpg%3Fv%3D1712677228&w=256&q=75" height="222px" width="160px" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="texts">
+                
+                        <div class="txtp">
+                            <p>Matte Attack Transproof</p>
+                        </div>
+                        <p class="name">Seal The Show Lip..</p>
+                        
+                        <div class="p_sec">
+                            <p><h3>&#x20B9;999</h3></p>
+                            <p><s style="color: #757575;"> MRP &#x20B9;1999</s></p>
+                        </div>
+                        <div class="p_sec2">
+                            <div class="price"><i class="fa-solid fa-wallet"></i></div>
+                            <p style="color: #757575;">&#x20B9; 199</p>
+                        </div>
+                    </div>
+                    <div class="lastSec">
+                        <div class="like"><i class="fa-regular fa-heart"></i></div>
+                        <div class="choic">CHOOSE ITEM</div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- ______________________________1______________________________________ -->
+
+<div class="footerBody">
+    <footer>
+        <div class="mediaIcon">
+            <div class="socialM"><i class="fab fa-facebook"></i></div>
+            <div class="socialM"><i class="fab fa-tumblr-square"></i></div>
+            <div class="socialM"><i class="fab fa-youtube"></i></div>
+            <div class="socialM"><i class="fab fa-twitter"></i></div>
+            <div class="socialM"><i class="fab fa-instagram"></i></div>
+            <div class="socialM"><i class="far fa-envelope"></i></div>
+            <div class="socialM"><i class="fab fa-pinterest"></i></div>
+        </div>
+        <hr class="footerHrTag">
+        <div class="listSection">
+            <div class="list">Stores</div>
+            <div class="list">Elite</div>
+            <div class="list">Terms & Conditions</div>
+            <div class="list">Returns</div>
+            <div class="list">FAQs</div>
+            <div class="list">About Us</div>
+        </div>
+        <hr class="footerHrTag">
+
+        <div class="mainLists">
+            <div class="miniLis">
+                <h1 class="minih1">GET IN TOUCH</h1>
+                <p class="minip1">Call us at</p>
+                <b class="minib1" style="color: #969696;">1800-209-9933</b>
+                <p class="minip2" style="color: #969696;">Monday to Friday: 09:00 AM - 09:00 PM</p>
+                <p class="minip3" style="color: #969696;">Saturday: 09:00 AM - 07:00 PM</p>
+            </div>
+            <div class="miniLis">
+                <p>Support</p>
+                <p style="color: #969696;">hello@sugarcosmetics.com</p>
+            </div>
+            <div class="miniLis">
+                <p>Careers</p>
+                <p style="color: #969696;">We're hiring!</p>
+            </div>
+            <div class="miniLis">
+                <p>Press & Media</p>
+                <p style="color: #969696;">pr@sugarcosmetics.com</p>
+            </div>
+            <div class="miniLis">
+                <p>Influencer Collab</p>
+                <p style="color: #969696;">Join Us</p>
+            </div>
+        </div>
+        <hr class="footerHrTag">
+        <div class="footerImg">
+            <div class="FIH1">
+                <h2>GET THE NEW SUGAR APP TODAY!</h2>
+                <p style="color: #969696;">Tap into a better shopping experience.</p>
+            </div>
+           
+             <img src="https://in.sugarcosmetics.com/playstore.png" alt="" height="39" width="132">
+             <img src="https://in.sugarcosmetics.com/apple-store.png" alt="" height="39" width="132">            
+        </div>
+        <hr class="footerHrTag">
+        <div class="copyright">
+            <p style="color: #969696;">Copyright © 2024 SUGAR Cosmetics. All rights reserved.</p>
+        </div>
+    </footer>
+</div>
+
+    
+
+</body>
+
+<script src="sugarCosmetic.js"></script>
+</html>
